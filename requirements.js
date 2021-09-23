@@ -19,14 +19,14 @@
 
 // We need an API
 
-// GET
-// to get all books ✅
-// to get specific book ✅
-// to get a list of books based on category✅
-// to get a list of books based on author -> [Task]🔥
+//GET
+// to get all books ✅ 📌
+// to get specific book ✅ 📌
+// to get a list of books based on category✅ 📌
+// to get a list of books based on author -> [Task]🔥 📕
 
 // POST
-// New Book ✅
+// New Book ✅ 📌
 
 // PUT
 // Update book details✅
@@ -43,13 +43,12 @@
 // We need an API
 
 // GET
-// to get all authors✅
-// to get specific author [Task]🔥
-// to get a list of authors based on a book. ✅
+// to get all authors✅ 📌
+// to get specific author [Task]🔥  📕
+// to get a list of authors based on a book. ✅  📕
 
 // POST
-// New Author ✅
-
+// New Author ✅ 📌
 // PUT
 // update Author name using id [Task] 🔥
 
@@ -64,11 +63,12 @@
 
 // GET
 // to get all publications ✅
-// to get specific publication [Task]🔥
-// to get a list of publications based on a book. [Task]🔥
+// to get all publications ✅  📕
+// to get specific publication [Task]🔥  📕
+// to get a list of publications based on a book. [Task]🔥  📕
 
 // POST
-// Add new publication [task] 🔥
+// Add new publication [task] 🔥  📕
 
 // PUT
 // update publication name using id [Task] 🔥
