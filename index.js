@@ -1,4 +1,5 @@
 require("dotenv").config();
+
 // Frame work
 const express = require("express");
 const mongoose = require("mongoose");
@@ -12,11 +13,13 @@ const shapeAI = express();
 // Configurations
 shapeAI.use(express.json());
 
+console.log(process.env.MONGO_URL);
+
 // Establish Database connection
 mongoose
   .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
-    useUnifiedTopology: true,
+    useUnifiedopology: true,
     useFindAndModify: false,
     useCreateIndex: true,
   })
@@ -308,8 +311,3 @@ shapeAI.delete("/publication/delete/book/:isbn/:pubId", (req, res) => {
 });
 
 shapeAI.listen(3000, () => console.log("Server running!!😎"));
-
-// Talk to mongodb in which mongodb understands => ******
-// talk to us in the way we understand => JavaScript
-
-// mongoose
