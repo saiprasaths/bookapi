@@ -29,7 +29,7 @@
 // New Book ✅ 📌
 
 // PUT
-// Update book details✅
+// Update book details✅📌
 // update/add new author✅
 
 // DELETE
@@ -77,6 +77,5 @@
 // DELETE
 // delete a book from publication ✅
 // delete a publication [Task] 🔥🚀
-
 
 // How does the server serves the request ?
