@@ -78,4 +78,4 @@
 // delete a book from publication ✅
 // delete a publication [Task] 🔥🚀
 
-// How does the server serves the request ?
+// Add mongoose validation to All the models [Task] 🔥
